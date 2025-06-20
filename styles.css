@@ -8,10 +8,11 @@ html, body {
     background: linear-gradient(to bottom, #8b85ff, #14032e);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 /* Main content */
@@ -75,11 +76,12 @@ a:hover, a:focus {
 }
 
 .navbar li a {
-    font-size: 20px;
+    font-size: 22px;
     color: inherit;
     text-decoration: none;
     display: inline-block;
     transition: transform 0.3s ease;
+    padding: 12px 0;
 }
 
 .navbar li a:hover {
@@ -95,9 +97,11 @@ a:hover, a:focus {
 }
 
 .logo img {
-    max-width: 100%;
+    max-width: 95%;
     height: auto;
-    transition: transform 0.1s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 .logo img:hover {
@@ -112,12 +116,15 @@ a:hover, a:focus {
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 15px;
+    padding: 24px 16px;
     background: linear-gradient(to bottom, #3f0163, #1c0341);
     color: white;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
+    row-gap: 16px;
+    font-size: 14px;
+
 }
 
 /* Footer columns */
@@ -131,8 +138,12 @@ a:hover, a:focus {
 
 /* Footer logo */
 .footer-left img {
-    width: 120px;
+    max-width: 100%;
+    width: auto;
     height: auto;
+    padding: 0 16px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Social links */
@@ -210,6 +221,10 @@ a:hover, a:focus {
 
 
 @media (max-width: 768px) {
+    body {
+        padding: 0 12px;
+    }
+    
     h1 {
         font-size: 2rem;
         text-align: center;
@@ -227,13 +242,18 @@ a:hover, a:focus {
     .navbar {
         flex-direction: column;
         height: auto;
-        padding: 10px 0;
+        padding: 20px 0;
     }
 
     .navbar ul {
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
         align-items: center;
+    }
+
+    .navbar li a {
+        font-size: 20px;
+        padding: 10px 0;
     }
 
     .logo img {
