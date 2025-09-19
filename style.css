@@ -343,37 +343,45 @@ footer .copyright {
 /* Mobile Styles */
 @media (max-width: 768px) {
     .navbar ul {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items */
+        flex-direction: column;
+        align-items: center;
     }
 
     .section {
-        padding: 30px; /* Adjust padding for mobile */
-        width: 100%; /* Full width */
+        padding: 30px;
+        width: 100%;
     }
 
     .landing h1 {
-        font-size: 2.5em; /* Adjust font size for mobile */
+        font-size: 2.5em;
     }
 
     .landing {
-        padding: 20px; /* Reduced padding for mobile */
+        padding: 20px;
     }
 
     footer {
-        font-size: 0.8em; /* Smaller footer text */
+        font-size: 0.8em;
     }
 
     h2 {
-        font-size: 2em; /* Adjusted heading size */
+        font-size: 2em;
     }
 
     .project-card {
-        padding: 15px; /* Adjusted card padding */
+        padding: 15px;
     }
 
     .project-card h3 {
-        font-size: 1.5em; /* Adjusted card title size */
+        font-size: 1.5em;
+    }
+
+    .zyraztudioslogo {
+        max-width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
 }
+
 
