@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-# Blocks common AI scrapers
+# Blocks AI scrapers
 User-agent: GPTBot
 User-agent: CCBot
 User-agent: ClaudeBot
