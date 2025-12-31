@@ -5,7 +5,6 @@ Allow: /
 User-agent: GPTBot
 User-agent: CCBot
 User-agent: ClaudeBot
-User-agent: Google-Extended
 Disallow: /
 
 Sitemap: https://zyrastudios.com/sitemap.xml
