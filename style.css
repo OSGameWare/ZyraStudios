@@ -35,6 +35,7 @@ html {
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 1s ease-out, transform 1s ease-out;
+    color: white;
 }
 
 /* Visible State for Sections */
@@ -174,6 +175,10 @@ h1, h2 {
     max-width: 900px;
     border: none;
     margin: 40px 0;
+}
+
+a {
+  color: #ffffff;
 }
 
 .section h2 {
