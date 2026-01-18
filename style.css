@@ -133,7 +133,6 @@ h1, h2 {
 }
 
 .tagline {
-    font-size: 30px;
     color: #ffffff;
 }
 
@@ -219,6 +218,7 @@ a {
     flex-direction:column;
     box-shadow: 0 4px 10px #aaaaaa;
     cursor: pointer;
+    padding-bottom: 0px;
 }
 
 .game-poster {
