@@ -8,17 +8,22 @@
 
 
 <url>
-  <loc>https://zyrastudios.com/</loc>
+  <loc>https://zyrastudios.com</loc>
   <lastmod>2025-09-21T15:59:43+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://zyrastudios.com/games.html</loc>
+  <loc>https://zyrastudios.com/games</loc>
   <lastmod>2025-09-21T15:59:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://zyrastudios.com/privacy-policy.html</loc>
+  <loc>https://zyrastudios.com/privacy-policy</loc>
+  <lastmod>2025-09-21T15:59:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zyrastudios.com/apogee</loc>
   <lastmod>2025-09-21T15:59:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
