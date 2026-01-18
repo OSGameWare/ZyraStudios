@@ -30,7 +30,7 @@ html {
     color: #ddd;
 }
 
-/* Initial State for Sections */
+
 .section {
     opacity: 0;
     transform: translateY(30px);
@@ -38,15 +38,15 @@ html {
     color: white;
 }
 
-/* Visible State for Sections */
+
 .section.visible {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* Offset for Sections */
+
 .section {
-    padding-top: 100px; /* Offsets content for fixed navbar */
+    padding-top: 100px;
 }
 
 /* Background Particles */
@@ -54,7 +54,7 @@ html {
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Make sure it's behind the content */
+    z-index: -1;
     overflow: hidden;
     top: 0;
     left: 0;
@@ -71,7 +71,7 @@ html {
     display: flex;
     justify-content: center;
     gap: 15px;
-    font-size: 25px;
+    font-size: 30px;
     color: #ffffff;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -88,14 +88,14 @@ html {
 }
 
 body {
-    animation: swirl 20s linear infinite; /* Smooth background swirl */
+    animation: swirl 20s linear infinite;
     font-family: Arial, sans-serif;
     color: #ffffff;
     background-color: #4b0082;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh; /* Ensure body takes at least full viewport height */
+    min-height: 100vh;
 }
 
 h1, h2 {
@@ -133,7 +133,7 @@ h1, h2 {
 }
 
 .tagline {
-    font-size: 25px;
+    font-size: 30px;
     color: #ffffff;
 }
 
@@ -145,7 +145,7 @@ h1, h2 {
 }
 
 .heart {
-    font-size: 25px;
+    font-size: 30px;
     display: inline-block;
     animation: rotateHeart 3s linear infinite;
     transform-origin: center center;
@@ -195,39 +195,53 @@ a {
     line-height: 1.5;
 }
 
-/* Projects Section */
+/* Games Section */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 900px));
+    gap: 40px;
+    justify-content: center;
+    place-items: center;
+    width: 95%;
+    margin: auto;
+    
 }
 
 .project-card {
-    padding: 20px;
+    padding: 5px;
     background-color: #252525;
     border-radius: 10px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
     color: #ffffff;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0 4px 10px #000000;
+    flex-direction:column;
+    box-shadow: 0 4px 10px #aaaaaa;
+    cursor: pointer;
+}
+
+.game-poster {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 8 / 3;
+    object-position: center center;
 }
 
 .project-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 20px rgb(255, 255, 255);
 }
 
 .project-card h3 {
-    font-size: 1.8em;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
 .project-card p {
-    font-size: 1.1em;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
@@ -250,7 +264,7 @@ a {
 #portfolio h2 {
     text-align: center;
     margin-bottom: 30px;
-    font-size: 2.5em;
+    font-size: 30px;
     color: #ffffff;
 }
 
@@ -271,7 +285,8 @@ footer .social-links {
 }
 
 footer .copyright {
-    margin-top: 15px;
+
+    margin-top: 20px;
     font-size: 18px;
 }
 
